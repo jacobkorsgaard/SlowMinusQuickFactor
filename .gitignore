@@ -1,0 +1,35 @@
+# macOS and R session files
+.DS_Store
+.Rhistory
+.RData
+.Ruserdata
+.Rproj.user/
+
+# Licensed/proprietary source data. Keep only explanatory placeholder files.
+data/raw/**
+!data/raw/.gitkeep
+!data/raw/README.md
+
+# Generated datasets and analysis outputs
+data/interim/**
+!data/interim/.gitkeep
+results/tables/**
+!results/tables/.gitkeep
+results/figures/**
+!results/figures/.gitkeep
+graphs/**
+!graphs/.gitkeep
+
+# Common generated R artifacts
+*.rds
+*.RDS
+*.rda
+*.RData
+
+# Logs and temporary files
+*.log
+*.tmp
+*~
+
+# Superseded thesis-development script retained locally for reference
+R/archive/
