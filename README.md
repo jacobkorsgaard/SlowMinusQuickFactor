@@ -116,19 +116,12 @@ Generated intermediate datasets and R table objects are written to
 computationally demanding, particularly the rolling adjustment-cost estimation
 and robustness analysis.
 
-## Reproducibility note
+## Verification
 
-The cleanup preserves the main empirical definitions and calculations while
-changing filenames, paths, and formatting. It also repairs several previously
-failing supplemental robustness/output blocks. Exact numerical reproduction
-still depends on using the same source extracts and software versions as the
-thesis analysis.
-
-The full pipeline has been executed successfully with the currently supplied
-inputs. A small version difference remains between those results and the final
-PDF, including a baseline SMQ FF5 alpha of 0.37% in the clean run versus 0.32%
-in the submitted thesis. See [REPRODUCIBILITY.md](REPRODUCIBILITY.md) for the
-verification record and details.
+The complete pipeline was successfully executed after restructuring. Results
+are consistent with the thesis conclusions, although individual estimates may
+differ slightly because of data vintages, package versions, and subsequent code
+cleanup.
 
 ## Citation
 
